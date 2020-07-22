@@ -1,5 +1,4 @@
 # zshnotes
-# oh-my-zsh-reminder
 A small, simple OhMyZsh plugin which creates a daily notes file in your homefolder ($HOME/zshnotes) and timestamps any entries, accessed by using "note" and "cnote" in the terminal
 
 Start by adding a note :
