@@ -48,4 +48,4 @@ git clone https://github.com/jameshgrn/zshnotes/ ~/.oh-my-zsh/custom/plugins/rem
 
 Then add it to your list of plugins in `~/.zshrc` (e.g `plugins=(zshnotes)`).
 
-I took much of this README from github user AlexisBRENON: check out their project here [https://github.com/AlexisBRENON/oh-my-zsh-reminder]
+I took much of this README from github user AlexisBRENON: check out their project [here](https://github.com/AlexisBRENON/oh-my-zsh-reminder)
