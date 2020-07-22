@@ -4,8 +4,6 @@ A small, simple OhMyZsh plugin which creates a daily notes file in your homefold
 Start by adding a note :
 
     $ note I need to get tomatoes
- 
-    $
 
 Then see your added note (with timestamp) :
 
@@ -16,13 +14,13 @@ Then see your added note (with timestamp) :
 
     06:13:06 PM:  I need to get tomatoes
 
-    $
+    
 
 You can always add another :
 
     $ note I had a great conversation with my colleague today
 
-    $
+    
 
 It will have an accurate timestamp :
 
@@ -34,7 +32,7 @@ It will have an accurate timestamp :
       --
       06:15:20 PM:  I had a great conversation with my colleague today
 
-    $
+    
 
 Thats it! 
 
