@@ -40,7 +40,7 @@ Thats it!
 
 To install, clone the repo into `~/.oh-my-zsh/custom/plugins` (ZSH plugins don't allow dashes, so make sure you clone it into a single-word folder):
 ``` bash
-git clone https://github.com/jameshgrn/zshnotes/ ~/.oh-my-zsh/custom/plugins/reminder
+git clone https://github.com/jameshgrn/zshnotes/ ~/.oh-my-zsh/custom/plugins/zshnotes
 ```
 
 Then add it to your list of plugins in `~/.zshrc` (e.g `plugins=(zshnotes)`).
