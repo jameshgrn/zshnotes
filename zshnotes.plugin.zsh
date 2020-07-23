@@ -51,3 +51,12 @@ note_read() {
 alias cnote=note_read
 autoload -U note_read
 
+note_read_yest() {
+  local cur_day
+  y_day=$(date -v-1d +%F)
+  local day_path
+  day_path="$HOME/Documents/zshnotes/"$y_day".txt"
+  cat $day_path
+}
+alias ynote=note_read_yest
+autoload -U note_read_yest
