@@ -53,7 +53,7 @@ autoload -U note_read
 
 note_read_yest() {
   local cur_day
-  y_day=$(date -v-1d +%F)
+  y_day=$(date -v-1d +"%m-%d-%y")
   local day_path
   day_path="$HOME/Documents/zshnotes/"$y_day".txt"
   cat $day_path
