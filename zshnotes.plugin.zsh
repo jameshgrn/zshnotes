@@ -12,7 +12,7 @@ note_submit() {
     task=$(echo -E "$@" | tr '\n' '\000' | sed 's:\x00\x00.*:\n:g' | tr '\000' '\n')
 
     if [[ ! -e $day_path ]]; then
-        mkdir -p "$HOME/Documents/zshnotes"
+        mkdir -p $HOME/Documents/zshnotes
         touch $day_path
         chmod +x $day_path
         fold -w 80 -s $day_path
@@ -36,7 +36,7 @@ note_read() {
   local day_path
   day_path="$HOME/Documents/zshnotes/"$cur_day".txt"
   if [[ ! -e $day_path ]]; then
-        mkdir -p "$HOME/Documents/zshnotes"
+        mkdir -p $HOME/Documents/zshnotes
         touch $day_path
         chmod +x $day_path
         fold -w 80 -s $day_path
