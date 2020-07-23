@@ -7,7 +7,7 @@ note_submit() {
     local cur_day
     cur_day=$(date +"%m-%d-%y")
     local day_path
-    day_path=$HOME/zshnotes/"$cur_day".txt
+    day_path=$HOME/Documents/zshnotes/"$cur_day".txt
 
     task=$(echo -E "$@" | tr '\n' '\000' | sed 's:\x00\x00.*:\n:g' | tr '\000' '\n')
 
