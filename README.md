@@ -31,8 +31,20 @@ It will have an accurate timestamp :
       06:13:06 PM:  I need to get tomatoes
       --
       06:15:20 PM:  I had a great conversation with my colleague today
+      
 
+You can see yesterday's note as well :
     
+    $ ynote
+      ##########################################################
+      ############### DAILY NOTES FOR 07-21-20 ################
+      ##########################################################
+
+      07:20:06 PM:  get tomatoes tomorrow
+      --
+      06:15:20 PM:  I need to talk to my colleague tomorrow.
+    
+  
 
 Thats it! 
 
